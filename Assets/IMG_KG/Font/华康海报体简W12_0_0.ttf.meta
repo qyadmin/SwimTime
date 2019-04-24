@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 63bfb93701667dd4dad96357e345ed6e
+timeCreated: 1525919049
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: DFHaiBaoW12-GB
+  fontNames:
+  - DFHaiBaoW12-GB
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

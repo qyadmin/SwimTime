@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 40f889c5a4b98694ca736b56b0915894
+timeCreated: 1525430080
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: HYChaoCuYuanJ
+  fontNames:
+  - HYChaoCuYuanJ
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b125e545811132f4ba5f4159d6790871, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
