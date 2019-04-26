@@ -16,8 +16,9 @@ public class Transform_Duihuan : MonoBehaviour
     public Button submitBtn, goldAddBtn;
     public HttpModel http_duihuan;
     public InputField numInput;
-    public Transform WindowBASE_duihuan;
+    public Transform WindowBASE_duihuan, WindowBASE_chongzhi;
     public Button chongzhiBtn;
+    public Transform_Chongzhi transform_Chongzhi;
     void Start()
     {
         goldAddBtn.onClick.AddListener(Init);
@@ -41,6 +42,7 @@ public class Transform_Duihuan : MonoBehaviour
 
     private void Chongzhi()
     {
-        MessageManager._Instantiate.Show("此功能暂时未开通");
+        GameManager.GetGameManager.OpenWindow(WindowBASE_chongzhi);
+        transform_Chongzhi.GetChongzhiQRcodeImg();
     }
 }
