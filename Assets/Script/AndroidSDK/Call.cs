@@ -18,24 +18,24 @@ public class Call : MonoBehaviour
     private Pay mPay;
 
 
-    [DllImport("__Internal")]
-    private static extern void _Payforios(string obj);
+    //[DllImport("__Internal")]
+    //private static extern void _Payforios(string obj);
 
 
     public void send(int num)
     {
-        mPay = new Pay();
-        mPay.money = num.ToString();
-        mPay.fangka = num.ToString();
-        mPay.uid = Static.Instance.GetValue("phone");
-        mPay.t = "房卡";
-#if UNITY_ANDROID
-        AndroidJavaObject javaObject = new AndroidJavaObject("io.dcloud.NjsHello");
-        javaObject.CallStatic("Demo", JsonMapper.ToJson(mPay), javaObject);
-
-#elif UNITY_IPHONE
-		_Payforios(JsonMapper.ToJson(mPay));
-#endif
+//        mPay = new Pay();
+//        mPay.money = num.ToString();
+//        mPay.fangka = num.ToString();
+//        mPay.uid = Static.Instance.GetValue("phone");
+//        mPay.t = "房卡";
+//#if UNITY_ANDROID
+//        AndroidJavaObject javaObject = new AndroidJavaObject("io.dcloud.NjsHello");
+//        javaObject.CallStatic("Demo", JsonMapper.ToJson(mPay), javaObject);
+//
+//#elif UNITY_IPHONE
+//		_Payforios(JsonMapper.ToJson(mPay));
+//#endif
     }
 
     [SerializeField]
